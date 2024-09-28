@@ -162,5 +162,4 @@ def password_page():
 
     root.mainloop()
 
-
 password_page()
