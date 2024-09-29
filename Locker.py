@@ -31,11 +31,11 @@ def password_page():
 
         if hashed_entered_password == PASSWORD_HASH:
             messagebox.showinfo("Access Granted", "Correct Password!")
-            root.destroy()
-            folder_locker_page()
+            root.destroy()  # Close password window
+            folder_locker_page()  # Open folder locker page
         else:
             messagebox.showerror("Access Denied", "Incorrect Password!")
-            password_entry.delete(0, tk.END)
+            password_entry.delete(0, tk.END)  # Clear password field
 
     def folder_locker_page():
         import os
@@ -59,8 +59,8 @@ def password_page():
             else:
                 print(f"Folder '{hidden_folder_path}' already exists.")
 
-            if os.name == 'nt':  # If the system is Windows
-                ctypes.windll.kernel32.SetFileAttributesW(hidden_folder_path, 2)  # 2 is the flag for hidden
+            if os.name == 'nt':
+                ctypes.windll.kernel32.SetFileAttributesW(hidden_folder_path, 2)
 
             return hidden_folder_path
 

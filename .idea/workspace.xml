@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67a0cd30-b67d-46fb-bf60-09bbbe2e80a4" name="Changes" comment="feat: Add secure password entry page with modern UI and animations&#10;&#10;- Implemented a password entry page with encrypted password verification using hashlib.&#10;- Added fade-in animation for a smooth user experience.&#10;- Designed the UI with modern, professional styling and custom fonts.&#10;- Integrated password validation to open the folder locker page upon correct password entry.">
-      <change afterPath="$PROJECT_DIR$/assets/icon/ico.png" afterDir="false" />
+    <list default="true" id="67a0cd30-b67d-46fb-bf60-09bbbe2e80a4" name="Changes" comment="feat: Add custom icon to executable and update PyInstaller configuration&#10;&#10;- Converted PNG icon to ICO format and added it to the executable using PyInstaller.&#10;- Updated PyInstaller command to include the custom icon for a professional application appearance.&#10;- Created hidden folder in the user's Documents for key storage, with OS-specific handling (Windows, macOS/Linux).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Locker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Locker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +59,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\malsh\PycharmProjects\Locker\assets\icon" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727537434787</updated>
       <workItem from="1727537436366" duration="4256000" />
-      <workItem from="1727571359145" duration="382000" />
+      <workItem from="1727571359145" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Enhance UI with modern styling and improved user experience&#10;&#10;- Added custom fonts for title, labels, and buttons.&#10;- Improved layout with frames for better widget organization.&#10;- Updated background and button colors for a sleek, professional look.&#10;- Applied consistent padding and margins for a structured layout.&#10;- Styled buttons with flat design and hover effects for better interaction.">
       <option name="closed" value="true" />
@@ -112,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727540146830</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: Add custom icon to executable and update PyInstaller configuration&#10;&#10;- Converted PNG icon to ICO format and added it to the executable using PyInstaller.&#10;- Updated PyInstaller command to include the custom icon for a professional application appearance.&#10;- Created hidden folder in the user's Documents for key storage, with OS-specific handling (Windows, macOS/Linux).">
+      <option name="closed" value="true" />
+      <created>1727571915724</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727571915724</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,9 +132,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Enhance UI with modern styling and improved user experience&#10;&#10;- Added custom fonts for title, labels, and buttons.&#10;- Improved layout with frames for better widget organization.&#10;- Updated background and button colors for a sleek, professional look.&#10;- Applied consistent padding and margins for a structured layout.&#10;- Styled buttons with flat design and hover effects for better interaction." />
     <MESSAGE value="feat: Add secure password entry page with modern UI and animations&#10;&#10;- Implemented a password entry page with encrypted password verification using hashlib.&#10;- Added fade-in animation for a smooth user experience.&#10;- Designed the UI with modern, professional styling and custom fonts.&#10;- Integrated password validation to open the folder locker page upon correct password entry." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add secure password entry page with modern UI and animations&#10;&#10;- Implemented a password entry page with encrypted password verification using hashlib.&#10;- Added fade-in animation for a smooth user experience.&#10;- Designed the UI with modern, professional styling and custom fonts.&#10;- Integrated password validation to open the folder locker page upon correct password entry." />
+    <MESSAGE value="feat: Add custom icon to executable and update PyInstaller configuration&#10;&#10;- Converted PNG icon to ICO format and added it to the executable using PyInstaller.&#10;- Updated PyInstaller command to include the custom icon for a professional application appearance.&#10;- Created hidden folder in the user's Documents for key storage, with OS-specific handling (Windows, macOS/Linux)." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add custom icon to executable and update PyInstaller configuration&#10;&#10;- Converted PNG icon to ICO format and added it to the executable using PyInstaller.&#10;- Updated PyInstaller command to include the custom icon for a professional application appearance.&#10;- Created hidden folder in the user's Documents for key storage, with OS-specific handling (Windows, macOS/Linux)." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Locker$Locker.coverage" NAME="Locker Coverage Results" MODIFIED="1727539828937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Locker$Locker.coverage" NAME="Locker Coverage Results" MODIFIED="1727572072640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
