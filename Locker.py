@@ -4,7 +4,7 @@ from tkinter import ttk
 import hashlib
 import time
 
-PASSWORD_HASH = hashlib.sha256("Kavindu@1125".encode()).hexdigest()
+PASSWORD_HASH = hashlib.sha256("Mal@1234".encode()).hexdigest()
 
 def password_page():
     root = tk.Tk()
